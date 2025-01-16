@@ -18,16 +18,18 @@ body {
 .header {
   text-align: center;
   margin-bottom: 30px;
+  background-color: #2ecc71; /* Green background color */
 }
 
 .header h1 {
   font-size: 2.5rem;
-  color: #333;
+  color: white; /* White text color for the header */
 }
 
 .header p {
   font-size: 1.2rem;
   margin-top: 10px;
+  color: white; /* White text color for the paragraph */
 }
 
 .header .button {
@@ -42,6 +44,7 @@ body {
 
 .header .button:hover {
   background-color: #0056b3;
+
 }
 
 /* About Section */
