@@ -1,11 +1,14 @@
-// Function to show the popup with a given link
-function showPopup(url) {
-  const popupText = document.getElementById('popup-text');
-  popupText.innerHTML = `You can view more here: <a href="${url}" target="_blank">${url}</a>`;
-  document.getElementById('popup').style.display = 'flex';
+window.onload = function() {
+    showPopup("Siva, Welcomes you!");
 }
 
-// Function to close the popup
+function showPopup(message) {
+    const popup = document.getElementById("popup");
+    const popupText = document.getElementById("popup-text");
+    popupText.innerText = message;
+    popup.style.display = "block";
+}
+
 function closePopup() {
-  document.getElementById('popup').style.display = 'none';
+    document.getElementById("popup").style.display = "none";
 }
