@@ -1,14 +1,14 @@
 /* General Body Style */
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Soft and bright gradient */
+  background: linear-gradient(135deg, #3498db, #8e44ad); /* Bright, vibrant gradient */
   color: #fff;
   margin: 0;
   padding: 0;
   animation: fadeIn 2s ease-in-out;
 }
 
-/* Fade-in animation for sections */
+/* Fade-in animation for body */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -20,9 +20,9 @@ body {
 
 /* Header */
 .header {
-  background-color: #34495e; /* Darker shade for header */
+  background-color: #2c3e50; /* Darker shade for header */
   color: white;
-  padding: 50px 20px;
+  padding: 60px 20px;
   text-align: center;
   animation: slideUp 1s ease-out;
 }
@@ -42,10 +42,10 @@ body {
 /* Section Styles */
 section {
   background-color: rgba(255, 255, 255, 0.9); /* Light background for sections */
-  padding: 30px;
-  border-radius: 8px;
+  padding: 40px;
+  border-radius: 10px;
   margin-bottom: 30px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   animation: fadeIn 2s ease-in-out;
 }
 
@@ -56,7 +56,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
