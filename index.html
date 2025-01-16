@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siva's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Hi, I'm <span>Siva Durshika</span></h1>
+    <p>Innovator, Aspiring Technologist, and Problem Solver</p>
+    <a href="#about" class="button">Know More About Me</a>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a second-year Information Technology student passionate about innovation, technology, and creating solutions that inspire progress.
+    </p>
+    <h3>Skills</h3>
+    <ul>
+      <li>Machine Learning</li>
+      <li>HTML, CSS, Bootstrap</li>
+      <li>Python & Kivy Development</li>
+      <li>UI/UX Design</li>
+      <li>Public Speaking</li>
+    </ul>
+  </section>
+
+  <section id="achievements" class="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li onclick="showPopup('Smart India Hackathon Participant')">
+        <strong>Smart India Hackathon Participant:</strong> Presented unique solutions and showcased innovative problem-solving skills.
+      </li>
+      <li onclick="showPopup('Webinars Conducted')">
+        <strong>Webinars Conducted:</strong> Introduction to Web Development, UI/UX Design Essentials
+      </li>
+      <li onclick="showPopup('Certificates Earned')">
+        <strong>Certificates Earned:</strong> OpenAI ChatGPT, Machine Learning Foundations, 8/20 Rules of Data Science
+      </li>
+      <li onclick="showPopup('Hackathon Recognitions')">
+        <strong>Hackathon Recognitions:</strong> SaWiT.AI Challenge by GUVI and HCL
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto: sivadurshika@gmail.com">sivadurshika@gmail.com</a></p>
+    <p>LinkedIn: <a href="https:https://www.linkedin.com/in/siva-durshika-g-86141030a" target="_blank">https://www.linkedin.com/in/siva-durshika-g-86141030a</a></p>
+    <p>GitHub: <a href="https://github.com/SivaDurshika-G" target="_blank">https://github.com/SivaDurshika-G</a></p>
+  </section>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <p id="popup-text"></p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 Siva's Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
