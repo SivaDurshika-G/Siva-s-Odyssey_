@@ -1,53 +1,27 @@
 /* General Body Style */
 body {
   font-family: 'Arial', sans-serif;
-  background: #f2f2f2; /* Soft light gray background */
-  color: #333; /* Dark text color for contrast */
+  background: #fff; /* White background */
+  color: #333; /* Dark text color */
   margin: 0;
   padding: 0;
-  animation: fadeIn 1.5s ease-out;
-}
-
-/* Fade-in animation for body */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 /* Header */
 .header {
-  background-color: #2980b9; /* Soft blue header */
+  background-color: #2ecc71; /* Light green header */
   color: white;
   padding: 60px 20px;
   text-align: center;
   border-radius: 10px;
-  animation: slideUp 1s ease-out;
-}
-
-/* Slide-up animation for header */
-@keyframes slideUp {
-  from {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
 }
 
 /* Section Styles */
 section {
-  background-color: #ffffff; /* White section background */
   padding: 40px;
-  border-radius: 10px;
   margin-bottom: 30px;
+  border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  animation: fadeIn 1.5s ease-out;
 }
 
 /* Footer Styles */
@@ -56,5 +30,4 @@ section {
   margin-top: 40px;
   color: #777;
   font-size: 0.9em;
-  animation: fadeIn 2s ease-out;
 }
