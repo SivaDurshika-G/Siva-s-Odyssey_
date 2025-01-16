@@ -1,7 +1,7 @@
 /* General Body Style */
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient from purple to blue */
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Soft and bright gradient */
   color: #fff;
   margin: 0;
   padding: 0;
@@ -20,20 +20,32 @@ body {
 
 /* Header */
 .header {
-  background-color: #2c3e50; /* Darker shade for header */
+  background-color: #34495e; /* Darker shade for header */
   color: white;
   padding: 50px 20px;
   text-align: center;
   animation: slideUp 1s ease-out;
 }
 
+/* Slide-up animation for header */
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 /* Section Styles */
 section {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9); /* Light background for sections */
   padding: 30px;
   border-radius: 8px;
   margin-bottom: 30px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   animation: fadeIn 2s ease-in-out;
 }
 
