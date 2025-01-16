@@ -1,8 +1,5 @@
-function showPopup(text) {
-  document.getElementById('popup-text').innerText = text;
-  document.getElementById('popup').style.display = 'flex';
-}
-
-function closePopup() {
-  document.getElementById('popup').style.display = 'none';
+function showPopup(link) {
+    const popupContent = `<p>Click <a href="${link}" target="_blank">here</a> to visit the LinkedIn post.</p><button onclick="closePopup()">Close</button>`;
+    document.getElementById("popup").innerHTML = popupContent;
+    document.getElementById("popup").style.display = "block";
 }
