@@ -1,73 +1,48 @@
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body Style */
+/* General Body Style */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #f0f8ff; /* Set light background color */
   color: #333;
   padding: 20px;
 }
 
-/* Header Style */
+/* Section Styles */
+section {
+  background-color: #fff; /* White background for each section */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: #007BFF;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+section ul li {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+/* Header Styling */
 .header {
   text-align: center;
+  background-color: #007BFF;
+  color: white;
+  padding: 50px 20px;
+  border-radius: 8px;
   margin-bottom: 30px;
 }
 
 .header h1 {
-  font-size: 2.5rem;
-  color: #333;
+  font-size: 3rem;
 }
 
-.header p {
-  font-size: 1.2rem;
-  margin-top: 10px;
-}
-
-.header .button {
-  background-color: #007BFF;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  margin-top: 20px;
-}
-
-.header .button:hover {
-  background-color: #0056b3;
-}
-
-/* About Section */
-.about, .achievements, .contact {
-  margin-bottom: 40px;
-}
-
-h2 {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 15px;
-}
-
-ul {
-  list-style-type: none;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-li strong {
-  color: #007BFF;
-}
-
-/* Popup Styles */
+/* Popup Styles (Unchanged) */
 .popup {
   position: fixed;
   top: 0;
@@ -92,37 +67,9 @@ li strong {
   color: #333;
 }
 
-.popup-content a {
-  color: #007BFF;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.popup-content a:hover {
-  text-decoration: underline;
-}
-
-button {
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
 /* Footer Styles */
 .footer {
   text-align: center;
   margin-top: 40px;
   color: #777;
-}
-
-.footer p {
-  font-size: 1rem;
 }
