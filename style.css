@@ -1,11 +1,11 @@
 /* General Body Style */
 body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #3498db, #8e44ad); /* Bright, vibrant gradient */
-  color: #fff;
+  font-family: 'Arial', sans-serif;
+  background: #f2f2f2; /* Soft light gray background */
+  color: #333; /* Dark text color for contrast */
   margin: 0;
   padding: 0;
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 1.5s ease-out;
 }
 
 /* Fade-in animation for body */
@@ -20,10 +20,11 @@ body {
 
 /* Header */
 .header {
-  background-color: #2c3e50; /* Darker shade for header */
+  background-color: #2980b9; /* Soft blue header */
   color: white;
   padding: 60px 20px;
   text-align: center;
+  border-radius: 10px;
   animation: slideUp 1s ease-out;
 }
 
@@ -41,26 +42,12 @@ body {
 
 /* Section Styles */
 section {
-  background-color: rgba(255, 255, 255, 0.9); /* Light background for sections */
+  background-color: #ffffff; /* White section background */
   padding: 40px;
   border-radius: 10px;
   margin-bottom: 30px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  animation: fadeIn 2s ease-in-out;
-}
-
-/* Popup Styles */
-.popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
+  animation: fadeIn 1.5s ease-out;
 }
 
 /* Footer Styles */
@@ -68,5 +55,6 @@ section {
   text-align: center;
   margin-top: 40px;
   color: #777;
-  animation: fadeIn 3s ease-in-out;
+  font-size: 0.9em;
+  animation: fadeIn 2s ease-out;
 }
