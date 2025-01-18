@@ -37,7 +37,7 @@ To set up Siva's Odyssey locally, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/your-github-repository/sivas-odyssey.git
+https://github.com/SivaDurshika-G/Siva-s_Digital_Showcase-
 
 
 2. Navigate to the project directory:
